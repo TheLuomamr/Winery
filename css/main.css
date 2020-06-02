@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap");
+
+body {
+  width: 100%;
+}
+.col-md-5 {
+  padding: 0px;
+}
+.nav-link {
+  color: #722f37;
+  font-family: "Cinzel", serif;
+  font-size: 18px;
+}
+header {
+  padding-bottom: 5px;
+  border-bottom: solid 4px #722f37;
+  background-color: rgb(241, 241, 241);
+}
+hr {
+  height: 0.5px;
+  width: 80%;
+  background-color: rgba(112, 110, 110, 0.432);
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.socialList {
+  font-size: 35px;
+  color: #722f37;
+}
+a {
+  color: #722f37;
+  text-decoration: none;
+}
+a:hover {
+  color: rgba(3, 70, 3, 0.425);
+}
+#location {
+  width: 80%;
+  border: 2px #68363b solid;
+  background-color: #f1c9cf77;
+  border-radius: 7px;
+  font-family: "Libre Baskerville", serif;
+}
+.col-md-3 h1 {
+  font-family: "Alex Brush", cursive;
+  font-size: 4em;
+  color: #722f37;
+  text-align: center;
+  text-shadow: 0.07em 0.07em 0 rgba(143, 141, 141, 0.1);
+  margin-bottom: 0px;
+}
+.line {
+  background-color: rgba(112, 110, 110, 0.096);
+  width: 100%;
+  margin-top: 30px;
+}
+.info {
+  border: #722f37 solid 2px;
+  background-color: rgb(240, 240, 240);
+  border-radius: 5px;
+  margin: 1%;
+}
+h2 {
+  font-family: "Cinzel", serif;
+}
+.jumbotron {
+  background-image: url("../images/ales-me-663246-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+.jumbotron h1 {
+  font-family: "Alex Brush", cursive;
+  font-size: 120px;
+  color: rgb(255, 255, 255);
+  text-shadow: 0.07em 0.07em 0 rgba(143, 141, 141, 0.1);
+  margin-bottom: 0px;
+}
+.jumbotron p {
+  font-family: "Libre Baskerville", serif;
+  color: rgb(255, 255, 255);
+}
+.jumbotron a {
+  background-color: #68363b;
+  border: none;
+  color: white;
+}
+.about {
+  height: 100%;
+}

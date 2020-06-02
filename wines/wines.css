@@ -1,0 +1,15 @@
+body{
+    width: 100%;
+    background-color:burlywood;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.nav-link{
+    color: #722f37;
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+
+}
+li:nth-of-type(5){
+    background-color: #e6a8af9c
+}
