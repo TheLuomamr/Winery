@@ -1,12 +1,14 @@
-body {
-  width: 100%;
+body,
+html {
+  height: 100%;
   background-image: url("../images/ales-me-663246-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 h1 {
   font-family: "Alex Brush", cursive;
-  font-size: 120px;
+  font-size: 7em;
   color: rgb(255, 255, 255);
   text-align: center;
   text-shadow: 0.07em 0.07em 0 rgba(143, 141, 141, 0.1);
@@ -35,8 +37,7 @@ img {
   height: 40px;
 }
 img:hover {
-  width: 140px;
-  height: 50px;
+  transform: rotate(35deg);
 }
 
 .separator {
@@ -52,5 +53,13 @@ img:hover {
   }
   100% {
     width: 80%;
+  }
+}
+@media all and (max-width: 720px) {
+  #title h2 {
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 5em;
   }
 }
